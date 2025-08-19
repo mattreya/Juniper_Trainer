@@ -1,0 +1,103 @@
+
+[
+    {
+        "question": "Which interface is important because it is the default source of your router ID (RID) and is often used for IBGP peering?",
+        "options": {
+            "A": "fxp0",
+            "B": "ge-0/0/0",
+            "C": "lo0",
+            "D": "so-0/0/0"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the default mask assigned to a loopback interface if the netmask is omitted when assigning a version 4 IP address?",
+        "options": {
+            "A": "/24",
+            "B": "/30",
+            "C": "/32",
+            "D": "/28"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which command is used to set the primary address on a loopback interface in JUNOS?",
+        "options": {
+            "A": "set unit 0 family inet address <ip>/<mask> primary",
+            "B": "set interfaces lo0 unit 0 primary-address <ip>/<mask>",
+            "C": "set lo0 unit 0 family inet address <ip>/<mask> preferred",
+            "D": "set interfaces lo0 unit 0 family inet primary <ip>/<mask>"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which encapsulation type is generally considered the most straightforward for POS interfaces in JUNOS?",
+        "options": {
+            "A": "Frame Relay",
+            "B": "PPP",
+            "C": "Cisco-HDLC",
+            "D": "ATM"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the default FCS (Frame Check Sequence) length for POS interfaces in JUNOS?",
+        "options": {
+            "A": "16-bit",
+            "B": "32-bit",
+            "C": "8-bit",
+            "D": "64-bit"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which command is used to set the encapsulation type for a POS interface to Cisco-HDLC?",
+        "options": {
+            "A": "set interfaces so-0/0/0 encapsulation hdlc",
+            "B": "set interfaces so-0/0/0 encapsulation cisco-hdlc",
+            "C": "set interfaces so-0/0/0 link-protocol cisco-hdlc",
+            "D": "set interfaces so-0/0/0 protocol hdlc"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of the 'hold-time' setting on an interface in JUNOS?",
+        "options": {
+            "A": "To specify the interval for sending keepalives",
+            "B": "To define the maximum time an interface can be down before being declared inoperable",
+            "C": "To control the delay before an interface is declared up or down after a state change",
+            "D": "To set the maximum number of packets to buffer"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which protocol is commonly used for link-layer and network-layer configuration on point-to-point links?",
+        "options": {
+            "A": "HDLC",
+            "B": "Frame Relay",
+            "C": "PPP",
+            "D": "Ethernet"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the default encapsulation type for POS interfaces in JUNOS?",
+        "options": {
+            "A": "Cisco-HDLC",
+            "B": "Frame Relay",
+            "C": "PPP",
+            "D": "ATM"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which command is used to configure a multipoint Frame Relay connection on a JUNOS interface?",
+        "options": {
+            "A": "set interfaces so-0/0/0 unit 0 point-to-multipoint",
+            "B": "set interfaces so-0/0/0 unit 0 multipoint",
+            "C": "set interfaces so-0/0/0 unit 0 family frame-relay multipoint",
+            "D": "set interfaces so-0/0/0 unit 0 encapsulation frame-relay multipoint"
+        },
+        "answer": "B"
+    }
+]

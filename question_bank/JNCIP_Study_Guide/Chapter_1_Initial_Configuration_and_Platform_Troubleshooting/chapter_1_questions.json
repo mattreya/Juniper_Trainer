@@ -1,0 +1,103 @@
+
+[
+    {
+        "question": "Which command is used to enter configuration mode in JUNOS?",
+        "options": {
+            "A": "configure",
+            "B": "config terminal",
+            "C": "enable config",
+            "D": "set config"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the default username for initial login to a new Juniper device?",
+        "options": {
+            "A": "admin",
+            "B": "juniper",
+            "C": "root",
+            "D": "operator"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which interface is typically used for out-of-band management access on Juniper devices?",
+        "options": {
+            "A": "ge-0/0/0",
+            "B": "fxp0",
+            "C": "lo0",
+            "D": "me0"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What command is used to set the hostname of a Juniper device?",
+        "options": {
+            "A": "set system hostname <name>",
+            "B": "hostname <name>",
+            "C": "system hostname <name>",
+            "D": "config hostname <name>"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which file contains the active configuration of a JUNOS device?",
+        "options": {
+            "A": "juniper.conf",
+            "B": "junos.conf",
+            "C": "running-config",
+            "D": "startup-config"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the purpose of the 'commit' command in JUNOS?",
+        "options": {
+            "A": "To save the configuration to NVRAM",
+            "B": "To apply the candidate configuration as the active configuration",
+            "C": "To verify the configuration syntax",
+            "D": "To exit configuration mode"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to view the current active configuration in JUNOS?",
+        "options": {
+            "A": "show running-config",
+            "B": "show configuration",
+            "C": "show | display set",
+            "D": "show system"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the significance of the 'root' login account on a new Juniper device?",
+        "options": {
+            "A": "It has read-only access",
+            "B": "It is used for remote access only",
+            "C": "It has full superuser privileges and no initial password",
+            "D": "It is disabled by default"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which protocol is commonly used for time synchronization on Juniper devices?",
+        "options": {
+            "A": "SNMP",
+            "B": "SSH",
+            "C": "NTP",
+            "D": "Telnet"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the primary function of syslog on a Juniper device?",
+        "options": {
+            "A": "To generate configuration backups",
+            "B": "To monitor and log system events and messages",
+            "C": "To provide remote access to the CLI",
+            "D": "To manage user accounts"
+        },
+        "answer": "B"
+    }
+]

@@ -1,0 +1,27 @@
+
+version 22.4R1.8;
+host-name R2;
+
+interfaces {
+    ge-0/0/0 {
+        unit 0 {
+            family inet {
+                address 192.168.1.2/24;
+            }
+        }
+    }
+}
+
+routing-options {
+    router-id 2.2.2.2;
+    autonomous-system 65000;
+}
+
+protocols {
+    ospf {
+        area 0.0.0.0 {
+            interface ge-0/0/0.0;
+        }
+    }
+}
+

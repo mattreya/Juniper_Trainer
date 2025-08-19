@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the primary purpose of IBGP (Internal BGP) in an AS?",
+        "options": {
+            "A": "To exchange routes between different ASs",
+            "B": "To ensure reachability to external destinations",
+            "C": "To distribute external routes to all IBGP speakers within the AS",
+            "D": "To establish a full mesh of peering sessions with all routers in the AS"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which command is used to configure the local AS number in JUNOS?",
+        "options": {
+            "A": "set routing-options autonomous-system <AS_number>",
+            "B": "set protocols bgp local-as <AS_number>",
+            "C": "set system local-as <AS_number>",
+            "D": "set routing-instances <instance-name> autonomous-system <AS_number>"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the default administrative distance for IBGP routes in JUNOS?",
+        "options": {
+            "A": "100",
+            "B": "170",
+            "C": "200",
+            "D": "10"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which BGP attribute is used to prevent routing loops within an AS when using route reflection?",
+        "options": {
+            "A": "Originator ID",
+            "B": "Cluster List",
+            "C": "AS Path",
+            "D": "Local Preference"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is a BGP confederation?",
+        "options": {
+            "A": "A group of routers that share the same AS number",
+            "B": "A method to reduce the number of IBGP peering sessions in a large AS",
+            "C": "A collection of ASs that are managed by a single entity",
+            "D": "A way to connect different routing protocols"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to configure a BGP peer group as a route reflector client in JUNOS?",
+        "options": {
+            "A": "set protocols bgp group <group-name> client",
+            "B": "set protocols bgp group <group-name> route-reflector-client",
+            "C": "set protocols bgp group <group-name> cluster-client",
+            "D": "set protocols bgp group <group-name> neighbor <ip-address> client"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of the 'local-address' statement in a BGP group configuration?",
+        "options": {
+            "A": "To specify the IP address of the remote peer",
+            "B": "To define the source IP address for BGP sessions initiated by the local router",
+            "C": "To set the router ID for the BGP process",
+            "D": "To configure the loopback address for the BGP group"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which BGP attribute is used to influence the outbound path selection from an AS?",
+        "options": {
+            "A": "Local Preference",
+            "B": "MED (Multi-Exit Discriminator)",
+            "C": "AS Path",
+            "D": "Origin"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the default hold time for BGP sessions in JUNOS?",
+        "options": {
+            "A": "30 seconds",
+            "B": "60 seconds",
+            "C": "90 seconds",
+            "D": "180 seconds"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which command is used to configure a BGP peer to operate in passive mode in JUNOS?",
+        "options": {
+            "A": "set protocols bgp group <group-name> passive",
+            "B": "set protocols bgp group <group-name> neighbor <ip-address> passive",
+            "C": "set protocols bgp group <group-name> mode passive",
+            "D": "set protocols bgp group <group-name> listen"
+        },
+        "answer": "A"
+    }
+]

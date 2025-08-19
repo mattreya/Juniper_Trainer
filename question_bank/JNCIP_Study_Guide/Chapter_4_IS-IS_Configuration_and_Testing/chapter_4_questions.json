@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Which IS-IS level is analogous to the OSPF backbone area (Area 0)?",
+        "options": {
+            "A": "Level 1",
+            "B": "Level 2",
+            "C": "Level 3",
+            "D": "Level 0"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of a NET (Network Entity Title) in IS-IS?",
+        "options": {
+            "A": "To identify the router's IP address",
+            "B": "To uniquely identify a given router within an IS-IS routing domain",
+            "C": "To specify the IS-IS area ID",
+            "D": "To define the router's hostname"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which IS-IS authentication mechanism is considered more secure and uses a shared secret key?",
+        "options": {
+            "A": "Simple password authentication",
+            "B": "MD5 authentication",
+            "C": "Plain text authentication",
+            "D": "None of the above"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is route leaking in IS-IS?",
+        "options": {
+            "A": "Injecting routing information from a Level 1 area into the backbone",
+            "B": "Injecting routing information from the IS-IS backbone into a Level 1 area",
+            "C": "Summarizing routes between IS-IS areas",
+            "D": "Filtering routes between IS-IS levels"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to configure an IS-IS interface to operate at Level 1 only?",
+        "options": {
+            "A": "set protocols isis interface <interface-name> level 1",
+            "B": "set protocols isis interface <interface-name> level 1 enable",
+            "C": "set protocols isis interface <interface-name> level 2 disable",
+            "D": "set protocols isis interface <interface-name> level 1 only"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the default LSP (Link State PDU) lifetime in IS-IS?",
+        "options": {
+            "A": "600 seconds",
+            "B": "1200 seconds",
+            "C": "3600 seconds",
+            "D": "1800 seconds"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which IS-IS network type is typically used for LAN interfaces?",
+        "options": {
+            "A": "Point-to-Point",
+            "B": "Broadcast",
+            "C": "NBMA",
+            "D": "Point-to-Multipoint"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of the 'no-authentication-check' option in IS-IS?",
+        "options": {
+            "A": "To disable authentication on an interface",
+            "B": "To allow adjacencies to form even if authentication settings are mismatched",
+            "C": "To prevent authentication from being configured",
+            "D": "To remove authentication from the IS-IS configuration"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to configure an IS-IS interface as passive?",
+        "options": {
+            "A": "set protocols isis interface <interface-name> passive",
+            "B": "set protocols isis interface <interface-name> disable",
+            "C": "set protocols isis interface <interface-name> mode passive",
+            "D": "set protocols isis interface <interface-name> type passive"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the default hello interval for IS-IS on Juniper devices?",
+        "options": {
+            "A": "5 seconds",
+            "B": "10 seconds",
+            "C": "30 seconds",
+            "D": "60 seconds"
+        },
+        "answer": "C"
+    }
+]

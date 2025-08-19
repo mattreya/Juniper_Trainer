@@ -1,0 +1,103 @@
+
+[
+    {
+        "question": "What is the primary goal of Class of Service (CoS) in a network?",
+        "options": {
+            "A": "To increase network bandwidth",
+            "B": "To prioritize certain types of traffic over others",
+            "C": "To encrypt network communications",
+            "D": "To reduce network latency for all traffic"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a common mechanism used to classify traffic for CoS?",
+        "options": {
+            "A": "IP address",
+            "B": "MAC address",
+            "C": "DSCP (Differentiated Services Code Point)",
+            "D": "VLAN ID"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the purpose of a forwarding class in JUNOS CoS?",
+        "options": {
+            "A": "To define the physical interface for traffic",
+            "B": "To assign a specific priority level to a group of packets",
+            "C": "To determine the routing path for traffic",
+            "D": "To encrypt traffic based on its classification"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which CoS component is responsible for managing the amount of traffic that can be sent or received on an interface?",
+        "options": {
+            "A": "Scheduler",
+            "B": "Shaper",
+            "C": "Policer",
+            "D": "Queue"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is a common technique used to prevent congestion and ensure fair allocation of bandwidth among different traffic classes?",
+        "options": {
+            "A": "Load balancing",
+            "B": "Route summarization",
+            "C": "Queuing and scheduling",
+            "D": "Link aggregation"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a key benefit of implementing CoS in a network?",
+        "options": {
+            "A": "Reduced hardware costs",
+            "B": "Improved application performance for critical services",
+            "C": "Simplified network troubleshooting",
+            "D": "Increased network security against all threats"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the role of a scheduler in JUNOS CoS?",
+        "options": {
+            "A": "To classify incoming traffic",
+            "B": "To drop packets that exceed a certain rate",
+            "C": "To determine when and how packets are transmitted from a queue",
+            "D": "To encrypt traffic based on its priority"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which CoS mechanism is used to mark packets with a specific value to indicate their priority?",
+        "options": {
+            "A": "Policing",
+            "B": "Shaping",
+            "C": "Marking",
+            "D": "Queuing"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the impact of congestion on network traffic without proper CoS implementation?",
+        "options": {
+            "A": "All traffic is treated equally, leading to fair performance for all applications",
+            "B": "Critical applications may experience degraded performance due to delays and packet loss",
+            "C": "Network bandwidth automatically increases to accommodate the load",
+            "D": "Traffic is automatically rerouted to less congested paths"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is NOT a typical component of a CoS configuration in JUNOS?",
+        "options": {
+            "A": "Forwarding classes",
+            "B": "Schedulers",
+            "C": "Routing instances",
+            "D": "Policers"
+        },
+        "answer": "C"
+    }
+]

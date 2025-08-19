@@ -1,0 +1,33 @@
+
+[
+    {
+        "question": "What is the default administrative distance of OSPF in Juniper?",
+        "options": {
+            "A": "10",
+            "B": "100",
+            "C": "110",
+            "D": "150"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which command is used to enable OSPF on a Juniper router?",
+        "options": {
+            "A": "set protocols ospf area 0.0.0.0 interface <interface-name>",
+            "B": "enable ospf",
+            "C": "ip ospf enable",
+            "D": "ospf run"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is the command to show OSPF neighbors in Juniper?",
+        "options": {
+            "A": "show ospf neighbor",
+            "B": "show ip ospf neighbor",
+            "C": "show ospf interface",
+            "D": "show ospf database"
+        },
+        "answer": "A"
+    }
+]

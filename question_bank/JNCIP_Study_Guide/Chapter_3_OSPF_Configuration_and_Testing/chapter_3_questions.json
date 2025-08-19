@@ -1,0 +1,103 @@
+
+[
+    {
+        "question": "Which OSPF LSA type is used by ABRs to advertise external routes that they know?",
+        "options": {
+            "A": "Type 1",
+            "B": "Type 2",
+            "C": "Type 3",
+            "D": "Type 5"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What is the default hello interval for OSPF on Juniper devices?",
+        "options": {
+            "A": "5 seconds",
+            "B": "10 seconds",
+            "C": "30 seconds",
+            "D": "60 seconds"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which OSPF network type elects a Designated Router (DR) and a Backup Designated Router (BDR)?",
+        "options": {
+            "A": "Point-to-Point",
+            "B": "Broadcast",
+            "C": "Non-Broadcast Multi-Access (NBMA)",
+            "D": "Point-to-Multipoint"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of a stub area in OSPF?",
+        "options": {
+            "A": "To allow flooding of AS external routing information",
+            "B": "To reduce the size of the link-state database by not allowing Type 5 LSAs",
+            "C": "To connect discontiguous areas to the backbone",
+            "D": "To perform route summarization between areas"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to configure an OSPF area as a stub area in JUNOS?",
+        "options": {
+            "A": "set protocols ospf area 0.0.0.0 stub",
+            "B": "set protocols ospf area 0.0.0.0 type stub",
+            "C": "set protocols ospf area 0.0.0.0 stub-area",
+            "D": "set protocols ospf area 0.0.0.0 area-type stub"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is a Totally Stubby Area (TSA) in OSPF?",
+        "options": {
+            "A": "A stub area that allows Type 3 LSAs but not Type 5 LSAs",
+            "B": "A stub area that blocks both Type 3 and Type 5 LSAs",
+            "C": "An area that only allows default routes",
+            "D": "An area that floods all LSA types"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which OSPF LSA type is used to advertise network summary routes across an area boundary?",
+        "options": {
+            "A": "Type 1",
+            "B": "Type 2",
+            "C": "Type 3",
+            "D": "Type 4"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the purpose of OSPF authentication?",
+        "options": {
+            "A": "To encrypt OSPF traffic",
+            "B": "To ensure that only trusted routers can participate in the OSPF domain",
+            "C": "To prioritize OSPF packets",
+            "D": "To summarize OSPF routes"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which command is used to configure MD5 authentication for an OSPF area in JUNOS?",
+        "options": {
+            "A": "set protocols ospf area 0.0.0.0 authentication md5",
+            "B": "set protocols ospf area 0.0.0.0 authentication-type md5",
+            "C": "set protocols ospf area 0.0.0.0 auth-md5",
+            "D": "set protocols ospf area 0.0.0.0 md5-authentication"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "What is a Not-So-Stubby Area (NSSA) in OSPF?",
+        "options": {
+            "A": "A stub area that allows Type 5 LSAs to be flooded",
+            "B": "A stub area that allows external routes to be injected into the OSPF domain as Type 7 LSAs",
+            "C": "A totally stubby area that allows Type 3 LSAs",
+            "D": "An area that does not elect a DR/BDR"
+        },
+        "answer": "B"
+    }
+]
