@@ -98,43 +98,32 @@ def generate_gns3_config(topic):
 
     return "GNS3 configuration files have been generated in the 'gns3_configs' directory."
 
-TOPIC_TO_DOMAIN = {
-    "OSPF": "infrastructure",
-    "BGP": "infrastructure",
-    "EIGRP": "infrastructure",
-    "STP": "infrastructure",
-    "VLANs": "infrastructure",
-    "WLAN": "architecture",
-    "SD-WAN": "architecture",
-    "SD-Access": "architecture",
-    "VRF": "virtualization",
-    "GRE": "virtualization",
-    "NetFlow": "network_assurance",
-    "SPAN/RSPAN/ERSPAN": "network_assurance",
-    "IPSLA": "network_assurance",
-    "SNMP": "network_assurance",
-    "Syslog": "network_assurance",
-    "Device Access Control": "security",
-    "Infrastructure Security": "security",
-    "REST API Security": "security",
-    "Wireless Security": "security",
-    "Python": "automation",
-    "JSON": "automation",
-    "REST APIs": "automation",
-}
+JUNIPER_CHAPTERS = [
+    "Chapter_1_Initial_Configuration_and_Platform_Troubleshooting",
+    "Chapter_2_Interface_Configuration_and_Testing",
+    "Chapter_3_OSPF_Configuration_and_Testing",
+    "Chapter_4_IS-IS_Configuration_and_Testing",
+    "Chapter_5_BGP_Configuration_and_Testing",
+    "Chapter_6_Routing_Policies",
+    "Chapter_7_Class_of_Service",
+    "Chapter_8_Multicast",
+    "Chapter_9_MPLS",
+    "Chapter_10_System_Logging_Archiving_and_SNMP",
+    "Chapter_11_Putting_It_All_Together",
+]
 
 def get_question_bank_path(topic):
-    domain = TOPIC_TO_DOMAIN.get(topic.upper())
-    if not domain:
-        return None
-    return os.path.join("question_bank", domain, f"{topic.lower()}.json")
+    for chapter in JUNIPER_CHAPTERS:
+        if topic.lower() in chapter.lower():
+            return os.path.join("question_bank", "JNCIP_Study_Guide", chapter, f"{chapter.lower().replace(' ', '_')}_questions.json")
+    return None
 
 def quiz_me(question_style: str = "multiple choice", topic: Optional[str] = None, num_questions: int = 10):
     if not topic:
-        print("Welcome to the CCNP Trainer Quiz!")
+        print("Welcome to the Juniper Trainer Quiz!")
         print("Please choose a topic to get started.")
         print("\nAvailable topics:")
-        for t in TOPIC_TO_DOMAIN.keys():
+        for t in JUNIPER_CHAPTERS:
             print(f"- {t}")
         print("\nTo start a quiz, use the command: /quizme topic=\"<topic_name>\"")
         return
